@@ -30,8 +30,8 @@
     "txCode": "5W1004", // 参考"外联平台商户开发接口_V4.0.chm",退款是这个"5W1004"
     "language": "CN",
     "url": "https://merchant.ccb.com",
-    "certFilePath": "/config/MC123456789.pfx",
-    "configFilePath": "/config/config.xml",
+    "certFilePath": "/config/MC123456789.pfx", // 使用绝对路径
+    "configFilePath": "/config/config.xml", // 使用绝对路径
     "refundNo": "序列号", // 16位以内纯数字
     "refundAmt": "退款金额", // 单位：元
     "payRecordNo": "交易单号" // 交易的时候你传给建行的单号
